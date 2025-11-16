@@ -1,5 +1,6 @@
-<img width="1901" height="867" alt="image" src="https://github.com/user-attachments/assets/e2d4f680-1646-4e83-ab78-dfa8748bef43" />
+<img width="1891" height="841" alt="image" src="https://github.com/user-attachments/assets/8851b328-08ac-4c0f-834b-f846505ab484" />
 
+# Sample Image of the project
 
 # Getting Started with Create React App
 
