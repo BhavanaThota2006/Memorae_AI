@@ -5,7 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --peach-50: #fff4ed;
+  --peach-100: #ffe3ce;
+  --peach-200: #ffd1b3;
+  --peach-300: #ffc099;
+  --peach-400: #ffb380;
+  --peach-500: #ffa366;
+  --peach-600: #ff944d;
+  --peach-700: #ff8533;
+  --peach-800: #ff751a;
+  --peach-900: #ff6600;
+  --primary: #FFDAB9;
+  --accent: #FFCBA4;
+  --text: #653232;
 }
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-22px); }
+  100% { transform: translateY(0px); }
+}
+@keyframes float-reverse {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(18px); }
+  100% { transform: translateY(0px); }
+}
+.animate-float { animation: float 5s infinite ease-in-out; }
+.animate-float-reverse { animation: float-reverse 6s infinite ease-in-out; }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
