@@ -10,7 +10,6 @@ import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
-import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <div className="app">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/features" element={<Features />} />
           <Route path="/pricing" element={<Pricing />} />
@@ -26,8 +24,8 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
         </Routes>
+        <Home />
         <Footer />
       </div>
     </Router>
