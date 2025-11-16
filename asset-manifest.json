@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Memorae_AI/static/css/main.2888627b.css",
-    "main.js": "/Memorae_AI/static/js/main.d95b62f9.js",
+    "main.js": "/Memorae_AI/static/js/main.0d8ed076.js",
     "static/media/q.jpg": "/Memorae_AI/static/media/q.aef204b0b5b8fa9f98a3.jpg",
     "static/media/image.png": "/Memorae_AI/static/media/image.f2d07c3b10e4cdf99420.png",
     "static/media/pro.jpg": "/Memorae_AI/static/media/pro.ab1c5ad472917e1f2813.jpg",
     "index.html": "/Memorae_AI/index.html",
     "main.2888627b.css.map": "/Memorae_AI/static/css/main.2888627b.css.map",
-    "main.d95b62f9.js.map": "/Memorae_AI/static/js/main.d95b62f9.js.map"
+    "main.0d8ed076.js.map": "/Memorae_AI/static/js/main.0d8ed076.js.map"
   },
   "entrypoints": [
     "static/css/main.2888627b.css",
-    "static/js/main.d95b62f9.js"
+    "static/js/main.0d8ed076.js"
   ]
 }
